@@ -1,0 +1,26 @@
+{
+    "name": "@pulumi/hcloud",
+    "version": "${VERSION}",
+    "description": "A Pulumi package for creating and managing hcloud cloud resources.",
+    "keywords": [
+        "pulumi",
+        "hcloud"
+    ],
+    "homepage": "https://github.com/akoenig/pulumi-hcloud",
+    "repository": "https://github.com/akoenig/pulumi-hcloud",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@pulumi/pulumi": "latest"
+    },
+    "devDependencies": {
+        "@types/mime": "^2.0.0",
+        "@types/node": "^8.0.25",
+        "typescript": "^3.4.1"
+    },
+    "pulumi": {
+        "resource": true
+    }
+}

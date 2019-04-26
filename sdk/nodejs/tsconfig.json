@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "outDir": "bin",
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "declaration": true,
+        "sourceMap": true
+    },
+    "files": [
+        "config/index.ts",
+        "config/vars.ts",
+        "floatingIp.ts",
+        "floatingIpAssignment.ts",
+        "getDatacenter.ts",
+        "getDatacenters.ts",
+        "getFloatingIp.ts",
+        "getImage.ts",
+        "getLocation.ts",
+        "getLocations.ts",
+        "getServer.ts",
+        "getSshKey.ts",
+        "getVolume.ts",
+        "index.ts",
+        "provider.ts",
+        "rdns.ts",
+        "server.ts",
+        "sshKey.ts",
+        "utilities.ts",
+        "volume.ts",
+        "volumeAttachment.ts"
+    ]
+}
+
