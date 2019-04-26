@@ -3,6 +3,8 @@
 ## Usage example (TypeScript)
 
 ```typescript
+const timestamp = Date.now();
+
 const sshKey = new hcloud.SshKey("fleet-v2", {
   name: "fleet-v2",
   publicKey: "my-ssh-key"
