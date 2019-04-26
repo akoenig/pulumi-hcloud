@@ -3,11 +3,13 @@
 ## Usage example (TypeScript)
 
 ```typescript
+import * as hcloud from "@pulumi/hcloud";
+
 const timestamp = Date.now();
 
-const sshKey = new hcloud.SshKey("fleet-v2", {
-  name: "fleet-v2",
-  publicKey: "my-ssh-key"
+const sshKey = new hcloud.SshKey("my-key", {
+  name: "my-key",
+  publicKey: "/home/ak/.ssh/my-key.pub"
 });
 
 const server = new hcloud.Server("nginx", {
