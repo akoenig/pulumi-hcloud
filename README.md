@@ -22,7 +22,5 @@ service nginx start
 `
 });
 
-const url = `http://${server.ipv4Address}`;
-
-export { url };
+export { server };
 ```
