@@ -9,7 +9,7 @@ const timestamp = Date.now();
 
 const sshKey = new hcloud.SshKey("my-key", {
   name: "my-key",
-  publicKey: "/home/ak/.ssh/my-key.pub"
+  publicKey: "<contents-of-public-ssh-key>"
 });
 
 const server = new hcloud.Server("nginx", {
